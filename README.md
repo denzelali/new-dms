@@ -7,7 +7,7 @@ http://192.168.18.14:80/
 
 or (if you’re using port 8080):
 
-http://192.168.18.14:8080/
+**http://192.168.18.14:8080/**
 
 If it loads → Apache is bound correctly.
 If not → Apache may still be listening only on localhost.
@@ -26,7 +26,7 @@ Listen 8080
 
 Make sure it’s:
 
-Listen 0.0.0.0:80
+**Listen 0.0.0.0:80**
 (or 8080 if that’s your port).
 
 Also find:
@@ -35,11 +35,11 @@ ServerName localhost:80
 
 Change to:
 
-ServerName 192.168.18.14:80
+**ServerName 192.168.18.14:80**
 
 (use 8080 if needed).
 
-Save file, restart Apache in XAMPP.
+**Save file, restart Apache in XAMPP.**
 
 Allow Apache in Firewall:
 
